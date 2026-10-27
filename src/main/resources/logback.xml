@@ -1,0 +1,11 @@
+<configuration>
+    <appender name="Kitchen_Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="Kitchen_Console"/>
+    </root>
+</configuration>
