@@ -1,0 +1,28 @@
+{
+  "menu": [
+    { "name": "Wings", "station": "FRY", "prepTicks": 4, "course": 1 },
+    { "name": "Fries", "station": "FRY", "prepTicks": 3, "course": 1 },
+    { "name": "Calamari", "station": "FRY", "prepTicks": 4, "course": 1 },
+    { "name": "Caesar Salad", "station": "COLD", "prepTicks": 2, "course": 1 },
+    { "name": "Oysters", "station": "COLD", "prepTicks": 3, "course": 1 },
+    { "name": "Burger", "station": "GRILL", "prepTicks": 6, "course": 2 },
+    { "name": "Ribeye", "station": "GRILL", "prepTicks": 9, "course": 2 },
+    { "name": "Salmon", "station": "GRILL", "prepTicks": 7, "course": 2 },
+    { "name": "Shrimp Scampi", "station": "SAUTE", "prepTicks": 6, "course": 2 },
+    { "name": "Mushroom Risotto", "station": "SAUTE", "prepTicks": 8, "course": 2 }
+  ],
+  "orders": [
+    { "table": 4, "arrivalTick": 0, "items": ["Ribeye", "Ribeye", "Mushroom Risotto", "Oysters"] },
+    { "table": 7, "arrivalTick": 0, "items": ["Caesar Salad", "Fries"] },
+    { "table": 2, "arrivalTick": 0, "items": ["Burger", "Fries"] },
+    { "table": 11, "arrivalTick": 0, "items": ["Wings", "Caesar Salad"] },
+    { "table": 9, "arrivalTick": 4, "items": ["Salmon", "Shrimp Scampi", "Calamari", "Oysters"] },
+    { "table": 3, "arrivalTick": 4, "items": ["Fries", "Caesar Salad"] },
+    { "table": 12, "arrivalTick": 5, "items": ["Burger", "Burger", "Wings"] },
+    { "table": 6, "arrivalTick": 9, "items": ["Mushroom Risotto", "Ribeye", "Caesar Salad"] },
+    { "table": 1, "arrivalTick": 9, "items": ["Oysters", "Calamari"] },
+    { "table": 8, "arrivalTick": 10, "items": ["Shrimp Scampi", "Fries"] },
+    { "table": 5, "arrivalTick": 16, "items": ["Ribeye", "Salmon", "Burger", "Wings"] },
+    { "table": 10, "arrivalTick": 16, "items": ["Caesar Salad"] }
+  ]
+}
